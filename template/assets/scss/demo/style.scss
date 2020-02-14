@@ -5,7 +5,7 @@
 
 /* === SCSS Compass Functions === */
 @import "../node_modules/compass-mixins/lib/compass";
-@import "../node_modules/compass-mixins/lib/animate";
+// @import "../node_modules/compass-mixins/lib/animate";
 
 
 /* === Template mixins === */
@@ -35,13 +35,13 @@
 @import "../shared/components/textfield";
 
 /* === Sample screens === */
-@import "../shared/sample-screens/error";
-@import "../shared/sample-screens/auth";
+// @import "../shared/sample-screens/error";
+// @import "../shared/sample-screens/auth";
 
 /* === Plugin Overides === */
-@import "../shared/components/plugin-overides/code-mirror";
+// @import "../shared/components/plugin-overides/code-mirror";
 
-@import './dashboard';
+// @import './dashboard';
 @import './navbar';
 @import './sidebar';
 @import './footer';

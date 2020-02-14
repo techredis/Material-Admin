@@ -1,8 +1,9 @@
 /* Sidebar */
 
 .mdc-drawer {
-  background: linear-gradient(#2a1c5a, #4b3a6e);
-  background: url(../../images/sidebar/sidebar-bg.jpg);
+  // background: linear-gradient(#2a1c5a, #4b3a6e);
+  // background: url(../../images/sidebar/sidebar-bg.jpg);
+  background: #232B3C;
   position: fixed;
   &--open,
   &__drawer {
@@ -52,8 +53,8 @@
         }
         .mdc-expansion-panel-link,
         .mdc-drawer-link {
-          height: 40px;
-          line-height: 48px;
+          height: 30px; //40px;
+          line-height: 36px;//48px;
           padding: 0 0.75rem;
           @include display-flex();
           @include align-items(center);
@@ -86,7 +87,7 @@
           }
 
           &.active {
-            background: #fff;
+            background: $mdc-drawer-item-active;// #fff;
             color: #000;
             font-weight: bold;
           }
@@ -117,7 +118,7 @@
       }
       .divider {
         width: 1px;
-        height: 10px;
+        height: 5px;//10px;
         margin-top: 1px;
         background: #bababa;
       }
@@ -146,7 +147,7 @@
         }
       }
       .mdc-button {
-        height: 40px;
+        height: 26px;//40px;
         font-size: 12px;
         font-weight: bold;
       }
